@@ -12,6 +12,24 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script>
+
+$(window).on('load', function(){
+    $('.first').show(1000);
+    $('.second').show(2500);
+    $('.third').show(4000);
+    $('.myName').css('color', 'black');
+    $('.my').show(7500);
+});
+
+</script>
+
 </head>
 
 <body>
@@ -48,9 +66,18 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Hello World!</h1>
-            <h2>Web Developer</h2>
+            <h1 class="first">어제보다 오늘</h1>
+            <h1 class="second">오늘보다 내일</h1>
+            <h1 class="third">더 기대되는 개발자</h1>
+            <div class="my">
+                <div style="display:flex">
+                    <h1 class="myName">&nbsp; 이재혁</h1>
+                    <h1 class="myDa">입니다.</h1>
+                </div>
+            </div>
+            <!--
             <a href="#" class="btn-rounded-white">Download Resume</a>
+            -->
         </div>
         
 
@@ -69,7 +96,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">Ae</h2>
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <div class="name">
+                        <div>이름</div>
+                        <div>이재혁</div>
+                    </div>
+                    <div class="name">
+                        <div>생년월일</div>
+                        <div>1998.01.01</div>
+                    </div>
+                    <div class="name">
+                        <div>주소지</div>
+                        <div>인천광역시 부평구</div>
+                    </div>
+                    <div class="name">
+                        <div>연락처</div>
+                        <div>010-7124-8165</div>
+                    </div>
+                    <div class="name">
+                        <div>이메일</div>
+                        <div>leecom116@naver.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">Why?</h2>
                 </div>
                 <div class="col-md-8">
                     <div class="name">
