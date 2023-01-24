@@ -96,26 +96,26 @@ $(window).on('load', function(){
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading about-title">About Me</h2>
                 </div>
-                <div class="col-md-8">
-                    <div class="name">
+                <div class="col-md-8 grid">
+                    <div class="name aboutMe">
                         <div>이름</div>
                         <div>이재혁</div>
                     </div>
-                    <div class="name">
+                    <div class="name aboutMe">
                         <div>생년월일</div>
                         <div>1998.01.01</div>
                     </div>
-                    <div class="name">
+                    <div class="name aboutMe">
                         <div>주소지</div>
                         <div>인천광역시 부평구</div>
                     </div>
-                    <div class="name">
+                    <div class="name aboutMe">
                         <div>연락처</div>
                         <div>010-7124-8165</div>
                     </div>
-                    <div class="name">
+                    <div class="name aboutMe">
                         <div>이메일</div>
                         <div>leecom116@naver.com</div>
                     </div>
@@ -128,50 +128,38 @@ $(window).on('load', function(){
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">Why?</h2>
+                    <h2 class="heading">Why Developer?</h2>
                 </div>
                 <div class="col-md-8">
                     <div class="name">
-                        <div>이름</div>
-                        <div>이재혁</div>
-                    </div>
-                    <div class="name">
-                        <div>생년월일</div>
-                        <div>1998.01.01</div>
-                    </div>
-                    <div class="name">
-                        <div>주소지</div>
-                        <div>인천광역시 부평구</div>
-                    </div>
-                    <div class="name">
-                        <div>연락처</div>
-                        <div>010-7124-8165</div>
-                    </div>
-                    <div class="name">
-                        <div>이메일</div>
-                        <div>leecom116@naver.com</div>
+                        <div>지루하고 반복된 일상속에서 코딩을 만나 즐거움을 느끼게 되었습니다.</div>
+                        <div>퇴근 후 나도코딩 유튜브에서 C언어 프로젝트를 하면서 무에서 유를 창조하는 기쁨을 느끼게 되었습니다.</div>
+                        <div>이후에 유데미에서 100일 코딩챌린지를 하면서 적성에도 잘 맞아 퇴사하고 개발자의 길을 선택하게 되었습니다.</div>
+                        <div>단순히 코딩을 하면서 어떠한 목표를 이루겠다는 생각보단 지금처럼 매일 코딩을 할 수 있다는 거에 감사하고 있습니다.</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     
-
-    
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>실무 프로젝트 기반 빅데이터 서비스 솔루션 개발자 양성과정</h3>
-            <span class="education-date">2022.07 - 2023.01</span>
-            <h4>쌍용강북교육센터</h4>
-            <p>
-                3개월간 C, Java, 스크립트 언어를 독학하다가 프로젝트의 경험이 필요하다는 걸 느껴 국비과정을 신청하였습니다.
-                전반적인 웹 애플리케이션 개발 공부를 하면서 프로젝트를 병행하였습니다. 순수자바와 오라클을 사용한 첫번째 세미 프로젝트,
-                자바 서블릿과 오라클을 이용한 두번째 세미프로젝트, 스프링과 오라클, 파이썬 플라스크와 몽고디비를 활용한 파이널 프로젝트 등 총 세 번의 프로젝트 경험을 통해
-                코드를 분석하여 효율적인 방법을 모색하는 문제해결능력과 팀원들과의 협업, 도움을 통해 커뮤니케이션 능력을 기를 수 있는 좋은 시간이었습니다.  
-            </p>
+    <div id="about" class="education">
+        <div class="row">
+            <h2 class="heading">Education</h2>
+        
+            <div class="education-block">
+                <h3>실무 프로젝트 기반 빅데이터 서비스 솔루션 개발자 양성과정</h3>
+                <span>2022.07 - 2023.01</span>
+                <h4>쌍용강북교육센터</h4>
+                <p>
+                    3개월간 C, Java, 스크립트 언어를 독학하다가 프로젝트 경험이 필요하다는 걸 느껴 국비과정을 신청하였습니다.
+                    전반적인 웹 애플리케이션 개발 공부를 하면서 프로젝트를 병행하였습니다. 순수자바와 오라클을 사용한 첫번째 세미 프로젝트,
+                    자바 서블릿과 오라클을 이용한 두번째 세미프로젝트, 스프링과 오라클, 파이썬 플라스크와 몽고디비를 활용한 파이널 프로젝트 등 총 세 번의 프로젝트 경험을 통해
+                    코드를 분석하여 효율적인 방법을 모색하는 문제해결 능력과 팀원들과의 협업, 도움을 통해 커뮤니케이션 능력을 기를 수 있는 좋은 시간이었습니다.  
+                </p>
+            </div>
         </div>
         
+        <!--
         <div class="education-block">
             <h3>University of Ottawa</h3>
             <span class="education-date">Sept 2016 - Sept 2017</span>
@@ -188,32 +176,30 @@ $(window).on('load', function(){
                 </li>
             </ul>
         </div>
-        
-    </div>
-    
-    <div id="Certificate">
-        <h2 class="heading">Certificate</h2>
-    
-        <div class="Certificate-block">
-            <h3>정보처리기사</h3>
-            <span class="Certificate-date">2022.11</span>
-            <h4>한국산업인력공단</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        
+        -->
     </div>
 
-    <div id="Archiving" class="background-alt">
+
+    <div id="about">
+        <div id="Certificate">
+            <h2 class="heading">Certificate</h2>
+        
+            <div class="Certificate-block">
+                <h3>정보처리기사</h3>
+                <span class="Certificate-date">2022.11</span>
+                <h4>한국산업인력공단</h4>
+                <ul>
+                    <li>
+                        비전공자로 CS기초가 부족하다고 느껴 전반적인 CS흐름을 읽고자 공부하였습니다.
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+
+    
+
+    <div id="Archiving">
         <h2 class="heading">Archiving</h2>
         <div id="Archiving-timeline">
             <div data-date="September 2015 – September 2016">
@@ -245,7 +231,7 @@ $(window).on('load', function(){
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/wbs.JPG" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -253,7 +239,7 @@ $(window).on('load', function(){
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/ksy2244/wbsPro">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -261,7 +247,7 @@ $(window).on('load', function(){
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/gurubee.JPG" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -269,7 +255,7 @@ $(window).on('load', function(){
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/jm-Back/gurubee">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -277,7 +263,7 @@ $(window).on('load', function(){
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/yellowland.JPG" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -285,7 +271,7 @@ $(window).on('load', function(){
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/ham0612ham/yellowland">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -297,6 +283,7 @@ $(window).on('load', function(){
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
+        <h3>현재까지 사용하고 배웠던 기술들입니다.</h3>
         <ul>
             <li>HTML5</li>
             <li>CSS3</li>
