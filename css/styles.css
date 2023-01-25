@@ -67,7 +67,7 @@ header a {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .aboutMe {
@@ -97,6 +97,7 @@ header a {
 img {
     width: 321px;
     height: 235px;
+    padding: 10px; 
 }
 
 #Archiving {
@@ -105,4 +106,17 @@ img {
 
 #Archiving li {
     list-style-type: none;
+}
+
+h1 {
+    width: 700px;
+}
+
+.myDa {
+    width: 160px;
+    margin-left: -35px;
+}
+
+.myName {
+    width: 185px;
 }
