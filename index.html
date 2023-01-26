@@ -72,7 +72,7 @@ $(window).on('load', function(){
             <div class="my">
                 <div style="display:flex; width: 660px; margin-left: 20px;">
                     <h1 class="myName">&nbsp; 이재혁</h1>
-                    <h1 class="myDa">입니다.</h1>
+                    <h1 class="myDa">입니다</h1>
                 </div>
             </div>
             <!--
@@ -171,7 +171,6 @@ $(window).on('load', function(){
                 <span>2022.07 - 2023.01</span>
                 <h4>쌍용강북교육센터</h4>
                 <p>
-                    3개월간 C, Java, 스크립트 언어를 독학하다가 프로젝트 경험이 필요하다는 걸 느껴 국비과정을 신청하였습니다.
                     전반적인 웹 애플리케이션 개발 공부를 하면서 프로젝트를 병행하였습니다. 순수자바와 오라클을 사용한 첫번째 세미 프로젝트,
                     자바 서블릿과 오라클을 이용한 두번째 세미프로젝트, 스프링과 오라클, 파이썬 플라스크와 몽고디비를 활용한 파이널 프로젝트 등 총 세 번의 프로젝트 경험을 통해
                     코드를 분석하여 효율적인 방법을 모색하는 문제해결 능력과 팀원들과의 협업, 도움을 통해 커뮤니케이션 능력을 기를 수 있는 좋은 시간이었습니다.  
@@ -189,6 +188,12 @@ $(window).on('load', function(){
                 <h3>정보처리기사</h3>
                 <span class="Certificate-date">2022.11</span>
                 <h4>한국산업인력공단</h4>
+            </div>
+
+            <div class="education-block">
+                <h3>ITQ OA Master</h3>
+                <span class="Certificate-date">2021.04</span>
+                <h4>한국생산성본부</h4>
             </div> 
         </div>
     </div>
@@ -222,11 +227,6 @@ $(window).on('load', function(){
         <h2 class="heading">Skills</h2>
         <h3>현재 사용 가능한 기술들입니다.</h3>
             <ul>
-                <!-- Front-end -->
-                <li><img class="stack-icon" src="images/stack-icon/html5.png"> HTML5</li>
-                <li><img class="stack-icon" src="images/stack-icon/css3.png"> CSS3</li>
-                <li><img class="stack-icon" src="images/stack-icon/javascript.png"> JavaScript</li>
-                <li><img class="stack-icon" src="images/stack-icon/jquery.png"> jQuery</li>
 
                 <!-- Back-end -->
                 <li><img class="stack-icon" src="images/stack-icon/java.png"> Java</li>
@@ -236,16 +236,23 @@ $(window).on('load', function(){
                 <!-- Framework -->
                 <li><img class="stack-icon" src="images/stack-icon/spring.png"> Spring</li>
                 <li><img class="stack-icon" src="images/stack-icon/flask.png"> Flask</li>
-                
+
                 <!-- Database -->
                 <li><img class="stack-icon" src="images/stack-icon/oracle.png"> Oracle</li>
                 <li><img class="stack-icon" src="images/stack-icon/mongodb.png"> MongoDB</li>
                 <li><img class="stack-icon" src="images/stack-icon/mybatis.png"> Mybatis</li>
+
+                <!-- Front-end -->
+                <li><img class="stack-icon" src="images/stack-icon/javascript.png"> JavaScript</li>
+                <li><img class="stack-icon" src="images/stack-icon/jquery.png"> jQuery</li>
+                <li><img class="stack-icon" src="images/stack-icon/html5.png"> HTML5</li>
+                <li><img class="stack-icon" src="images/stack-icon/css3.png"> CSS3</li>
                 
                 <!-- etc. -->
                 <li><img class="stack-icon" src="images/stack-icon/ajax.png"> Ajax</li>
                 <li><img class="stack-icon" src="images/stack-icon/jsp.png"> JSP</li>
             </ul>
+            <!-- Servlet, Bootstrap, Github 등등 추가 -->
     </div>
 
     <div id="projects" class="background-alt">
@@ -260,84 +267,91 @@ $(window).on('load', function(){
                     
                     <div class="project-info">
                         <h3>노른자 - 서울시 상권분석 서비스</h3>
-                        <p>
-                            노른자는 서울시 상권분석 서비스 웹 애플리케이션입니다. 
-                            대한민국의 수도인 서울과 달걀의 중심인 노른자가 잘 매칭이 된다고 생각하여 짓게 되었습니다.
-                        </p>
+                        <p>노른자는 서울시 상권분석 서비스 웹 애플리케이션입니다.</p>
+                        <p>대한민국의 수도인 서울과 달걀의 중심인 노른자가 잘 매칭이 된다고 생각하여 짓게 되었습니다.</p>
+                        <p>- Spring Security를 이용한 회원가입, 로그인 및 접근제어 구현</p>
                         <p>- Spring에 MongoDB를 연동하여 Echart로 데이터 시각화</p>
-                        <div>담당 부분</div>
-                        <p>상가 양도 커뮤니티</p>
-                        <p>상가 양도는 직방, 다방 등의 부동산 중개업 사이트를 참고하여 카카오 지도 API 기반으로 매물을 거래할 수 있도록 기능을 구현하였습니다.</p>
-                        <p>- Ajax를 적극 활용하여 하나의 jsp안에 모든 기능 구현</p>
+                        <p>- Spring tiles를 이용한 관리자 레이아웃 구성</p>
+
+                        <!--<div>담당 부분</div>-->
+                        <p>직방, 다방 등의 부동산 중개업 사이트를 참고하여 카카오 지도 API 기반으로 매물을 거래할 수 있도록 기능을 구현하였습니다.</p>
+                        <p>- Ajax를 적극 활용하여 모든 기능을 하나의 jsp안에 구현</p>
                         <p>- 위도, 경도 데이터를 가진 json파일을 jQuery로 불러와서 카카오 맵 API에 클러스터, 마커 표시</p>
                         <p>- Geocoder API를 이용한 주소 검색, Navigator 객체 이용한 GPS 기능</p>
-                        <p>- </p>
+                        <p>- Mybatis를 이용한 트랜잭션 처리</p>
                         
-                        <p>챗봇</p>
-                        <p>
-                            GoormIDE를 이용한 
-                            챗봇은 로컬호스트에서 작업이 불가하여 구름IDE를 이용하여 컨테이너 안에 Flask를 이용하여 자체 서버를 구현하였습니다.
-                            파이썬과 몽고디비를 이용하여 카카오 서버와 자체 챗봇 서버와 json 방식으로 데이터를 주고 받았습니다.
-                            사용자가 입력한 발화를 카카오 서버에서 입력 받아 json형식으로 자체 챗봇 서버로 넘겨 받은 다음에, 
-                            json 객체와 조건에 맞는 데이터를 몽고디비에서 찾아내어 json형식으로 가공후 카카오 서버에 넘겨 사용자에게 맞춤 서비스를 제공합니다.
-                        </p>
-                        <p>
-                            작성한 게시글의 주소를 기반으로 지도상에 마커로 표시가 되며 해당 마커를 클릭시 오른쪽에 상세 페이지가 표시됩니다. 주변에 마커가 여러개가 될 경우
-                            줌 레벨에 따라 클러스터로 바뀌고 지도상에 존재하는 클러스터 기준으로 리스트가 표시됩니다. 지도를 움직일 때마다 업데이트가 됩니다. 
-                        </p>
+                        <p>- Python과 MongoDB를 이용하여 데이터 가공</p>
+                        <p>- GoormIDE Container에 Flask를 활용한 자체 서버 구현</p>
+                        <p>- json 형식으로 카카오 챗봇 서버와 자체 챗봇 서버간의 데이터 공유</p>
+                        
                         <div>개발환경</div>
-                        <p>Front-end</p>
-                        <p>- HTML5, CSS3, JavaScript, jQuery, AJAX, Bootstrap</p>
-                        <p>Back-end</p>
-                        <p>- JavaSE(JDK)1.8, Python3, Oracle, MongoDB, Mybatis, Servlet, JSP</p>
-                        <p>Framework</p>
-                        <p>- Spring, Framework</p>
-                        <p>Server</p>
-                        <p>- Apache Tomcat 9.0, GoormIDE</p>
+                        <div>Front-end</div>
+                        <p>- HTML5, CSS3, JavaScript, jQuery, Ajax, Jsp, Bootstrap</p>
+                        <div>Back-end</div>
+                        <p>- Java8, Python3, Oracle 18C, MongoDB, Servlet, JSP</p>
+                        <div>Framework</div>
+                        <p>- Spring, Flask, Mybatis</p>
+                        <div>Server</div>
+                        <p>- Tomcat 9.0, GoormIDE</p>
                         <a href="https://github.com/ham0612ham/yellowland">프로젝트 보기</a>
                     </div>
                 </div>
 
-                <div class="project shadow-large" style="height: 540px;">
+                <div class="project shadow-large" style="height: 711px;">
                     <div class="project-image">
                         <img class="project-img" src="images/gurubee.JPG" />
                     </div>
                     <div class="project-info">
                         <h3>구루비 - 그룹웨어 시스템</h3>
-                        <p>
-                            구루비(GURUBEE)는 단어 '그룹'의 발음을 길게 늘려서 만든 그룹웨어 서비스 이름입니다.
-                            팀 프로젝트로 구현한 그룹웨어로써 서블릿을 활용해 구현하였습니다.
-                            전자결재, 일정관리, 공지사항과 같은 필수 기능 위주로 개발하였습니다.
-                        </p>
+                        <p>구루비(GURUBEE)는 단어 '그룹'의 발음을 길게 늘려서 만든 그룹웨어 서비스 이름입니다.</p>
+                        <p>팀 프로젝트로 구현한 그룹웨어로써 서블릿을 활용해 구현하였습니다.</p>
+                        <p>전자결재, 일정관리, 공지사항과 같은 필수 기능 위주로 개발하였습니다.</p>
+
+                        <p>- Ajax를 이용한 댓글, 공감 기능</p>
+                        <p>- Java를 이용한 파일 업로드 구현</p>
+                        <p>- Servlet을 통한 사용자에게 서비스 제공</p>
+                        <p>- JDBC Driver를 이용해 Java와 Oracle을 연결</p>
+                        <p>- 사용자 데이터를 Oracle에 저장해 영속성 보장</p>
+                        <p>- jQuery와 JavaScript를 적극 활용해 요구사항 처리</p>
+                        
+                        <!--
                         <div>담당 부분</div>
                         <p>게시판, 커뮤니티, 로그인 기능 및 메인화면을 구현하였습니다. 게시판은 공지사항과 부서 전용 게시판을 구현하였고, 
-                            커뮤니티는 익명 커뮤니티로 직장인 익명 앱인 블라인드를 참고했습니다. 자바와 오라클을 JDBC Driver를 이용해 연결했습니다.</p>
+                            커뮤니티는 익명 커뮤니티로 직장인 익명 앱인 블라인드를 참고했습니다.</p>
+                        -->
                         <div>개발환경</div>
                         <p>Front-end</p>
-                        <p>- HTML5, CSS3, JavaScript, jQuery, AJAX, Bootstrap</p>
+                        <p>- HTML5, CSS3, JavaScript, jQuery, Ajax, Bootstrap</p>
                         <p>Back-end</p>
-                        <p>- Oracle, Servlets & JSP, JavaSE(JDK)1.8</p>
+                        <p>- Java8, Oracle 18C, Servlet</p>
                         <p>Server</p>
-                        <p>- Apache Tomcat 9.0</p>
+                        <p>- Tomcat 9.0</p>
                         <a href="https://github.com/jm-Back/gurubee">프로젝트 보기</a>
                     </div>
                 </div>
 
-                <div class="project shadow-large" style="height: 380px;">
+                <div class="project shadow-large" style="height: 435px;">
                     <div class="project-image" style="width: 314px; height: 188px;">
                         <img class="project-img" src="images/wbs.JPG" />
                     </div>
                     
                     <div class="project-info">
                         <h3>WBS 일정관리 프로그램</h3>
-                        <p>
-                            WBS(Work Breakdown Structure)는 프로젝트를 효율적으로 진행하기 위해 업무 일정을 계획하고 관리할 수 있는 일정관리 프로그램입니다.
-                            프로젝트의 작업단위를 프로젝트, 대분류, 중분류, 소분류 총 4단계의 트리구조로 세분화하여 업무를 쉽게 소화할 수 있도록 구현하였습니다.
-                        </p>
+                        <p>WBS(Work Breakdown Structure)는 프로젝트를 효율적으로 진행하기 위해 업무 일정을 계획하고 관리할 수 있는 일정관리 프로그램입니다.</p>
+                        <p>프로젝트의 작업단위를 프로젝트, 대분류, 중분류, 소분류 총 4단계의 트리구조로 세분화하여 업무를 쉽게 소화할 수 있도록 구현하였습니다.</p>
+                        
+                        <p>- 트랜잭션 처리를 통한 데이터 무결성</p>
+                        <p>- 예외처리를 이용하여 비정상 종료 방지</p>
+                        <p>- 정규식을 사용하여 데이터 정확성 향상</p>
+                        <p>- JDBC Driver를 이용하여 Java와 Oracle을 연결</p>
+                        <!--
                         <div>담당 부분</div>
-                        <p>저는 실적관리(업무구성비, 실적진척율)와 인사관리(사원/협력) 기능을 담당하였습니다. 실제로 목표한 계획 진척율과 실제로 이행한 결과인 실적 진척율의 값을 입력 받고 업무구성비와 계산하여 프로젝트의 진행상황을 표시하였습니다.</p>
+                        <p>저는 실적관리(업무구성비, 실적진척율)와 인사관리(사원/협력) 기능을 담당하였습니다.</p>
+                        <p>실제로 목표한 계획 진척율과 실제로 이행한 결과인 실적 진척율의 값을 입력 받고 업무구성비와 계산하여 프로젝트의 진행상황을 표시하였습니다.</p>
+                        -->
                         <div>개발환경</div>
-                        <p>- JavaSE1.8, Oracle 18C, Eclipse, SQL Developer, GitHub</p>
+                        <p>- Java8, Oracle 18C, Eclipse, SQL Developer, GitHub</p>
+
                         <a href="https://github.com/ksy2244/wbsPro">프로젝트 보기</a>
                     </div>
                 </div>
