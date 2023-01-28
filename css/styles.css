@@ -157,3 +157,7 @@ h3 > a:hover {
     color: #374054db;
     text-decoration: none;
 }
+
+.sub {
+    font-size: 14px;
+}
